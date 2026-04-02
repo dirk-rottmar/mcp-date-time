@@ -1,0 +1,18 @@
+spring:
+  ai:
+    mcp:
+      server:
+        enabled: true
+        name: date-time-mcp-sse
+        version: 0.0.1
+        type: SYNC
+        instructions: "Returns the current date and time"
+        capabilities:
+          resource: false
+          tool: true
+          prompt: false
+          completion: false
+        sse-message-endpoint: /mcp/message
+
+server:
+  port: 8086
