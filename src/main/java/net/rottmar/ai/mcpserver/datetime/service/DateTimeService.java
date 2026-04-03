@@ -1,4 +1,4 @@
-package net.rottmar.ai.mcpserver.profilesgenerator.service;
+package net.rottmar.ai.mcpserver.datetime.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

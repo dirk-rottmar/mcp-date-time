@@ -1,6 +1,6 @@
-package net.rottmar.ai.mcpserver.profilesgenerator;
+package net.rottmar.ai.mcpserver.datetime;
 
-import net.rottmar.ai.mcpserver.profilesgenerator.tool.DateTimeTools;
+import net.rottmar.ai.mcpserver.datetime.tool.DateTimeTools;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.boot.SpringApplication;

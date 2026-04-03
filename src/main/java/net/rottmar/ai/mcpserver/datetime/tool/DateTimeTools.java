@@ -1,6 +1,6 @@
-package net.rottmar.ai.mcpserver.profilesgenerator.tool;
+package net.rottmar.ai.mcpserver.datetime.tool;
 
-import net.rottmar.ai.mcpserver.profilesgenerator.service.DateTimeService;
+import net.rottmar.ai.mcpserver.datetime.service.DateTimeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ai.tool.annotation.Tool;
