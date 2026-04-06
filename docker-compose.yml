@@ -1,0 +1,10 @@
+services:
+  mcp-datetime-server:
+    build: .
+    container_name: mcp-datetime-server
+    ports:
+      - "8086:8086"
+    environment:
+      - SERVER_PORT=8086
+      - SPRING_PROFILES_ACTIVE=prod
+    restart: unless-stopped
